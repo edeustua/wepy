@@ -10,7 +10,17 @@ git checkout --track github/gh-pages
 git checkout gh-pages
 
 # copy over the build products
-cp ./_build/html/* ../docs/
+cp -r ./_build/html/* ../docs/
 
-git checkout master
+# add the files in the docs folder
+git add docs/* --force
+
+# commit
+git commit -m "Automated commit from deploy.sh"
+
+# push this branch so it gets published
+git push github
+
+# go back to the branch you were on
+git checkout -
 
