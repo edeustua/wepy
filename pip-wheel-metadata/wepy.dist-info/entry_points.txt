@@ -1,0 +1,3 @@
+[console_scripts]
+wepy = wepy.orchestration.cli:cli
+

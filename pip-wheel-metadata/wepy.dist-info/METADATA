@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: wepy
+Version: 1.0.0rc0
+Summary: Weighted Ensemble Framework
+Home-page: https://github.com/ADicksonLab/wepy
+Author: Samuel D. Lotz
+Author-email: samuel.lotz@salotz.info
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: networkx (>=2)
+Requires-Dist: pandas
+Requires-Dist: dill
+Requires-Dist: click
+Requires-Dist: scipy
+Requires-Dist: geomm
+Requires-Dist: matplotlib
+Provides-Extra: all
+Provides-Extra: mdtraj
+Requires-Dist: mdtraj ; extra == 'mdtraj'
+
+UNKNOWN
+
+
